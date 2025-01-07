@@ -7,30 +7,36 @@
     <title>AI Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Poem generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of a poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>This is the poem...</div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of a poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">This is the poem...</div>
+      </main>
 
-    <footer>
-      This site is open-sourced on
-      <a href="https://github.com/chanikauf/ai-generator" target="_blank"
-        >Github</a
-      >
-    </footer>
+      <footer>
+        This site was coded by
+        <a href="https://github.com/chanikauf" target="_blank">Chani Kaufman</a>
+        and is open-sourced on
+        <a href="https://github.com/chanikauf/ai-generator" target="_blank"
+          >Github</a
+        >
+        and hosted on <a href="/" target="_blank">Netlify</a>
+      </footer>
+    </div>
   </body>
   <script src="src/index.js"></script>
 </html>
