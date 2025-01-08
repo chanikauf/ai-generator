@@ -3,9 +3,9 @@ function generatePoem(event) {
 
   new Typewriter("#poem", {
     strings: "La tombe roasa",
-    autostart: true,
+    autoStart: true,
     delay: 1,
-    cursor: "",
+    cursor: null,
   });
 }
 
